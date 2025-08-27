@@ -44,7 +44,7 @@ run -it --name rv_devel_1 \
 qiqi_2026:1.0 \
 #ros2 launch foxglove_bridge foxglove_bridge_launch.xml
 ```
-### 5.把src文件夹手动放置在/ros_ws/目录下，配置容器内运行环境
+### 5.把src文件夹手动放置在/ros_ws/目录下，配置容器环境
 ### 6. 编译运行成功后，在容器中ros_entrypoint.sh文件第6行写入
 ```bash
 source "/ros_ws/install/setup.bash"
