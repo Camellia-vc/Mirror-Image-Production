@@ -83,7 +83,7 @@ qiqi_2026:3.0 \
 ros2 launch rm_bringup bringup.launch.py
 ```
 ### 11. （构建容器报错）  
-![alt text](微信图片_20250827163207.jpg)
+![alt text](image.png)
 ### 可以试试先运行这个（容器工作空间卷删除指令）
 ```bash
 docker volume rm ws
